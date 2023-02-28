@@ -4,13 +4,16 @@ using Microsoft.EntityFrameworkCore;
 namespace CleanEntityFrameworkDemo.Infrastructure.Database {
     public class PublicationContext :DbContext
     {
+        public PublicationContext()
+        {}
+
         public PublicationContext(DbContextOptions<PublicationContext> options)
             : base(options)
         {
         }
 
-        public DbSet<AuthorEntity> Authors { get; set; }
-        public DbSet<ArticleEntity> Articles { get; set; }
+        public virtual DbSet<AuthorEntity> Authors { get; set; }
+        public virtual DbSet<ArticleEntity> Articles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

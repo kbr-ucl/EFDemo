@@ -3,25 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.Api", "CleanEntityFrameworkDemo.Api\CleanEntityFrameworkDemo.Api.csproj", "{D6791BB9-D0AE-401B-BD04-EC14DD3E6E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEntityFrameworkDemo.Api", "CleanEntityFrameworkDemo.Api\CleanEntityFrameworkDemo.Api.csproj", "{D6791BB9-D0AE-401B-BD04-EC14DD3E6E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.Application", "CleanEntityFrameworkDemo.Application\CleanEntityFrameworkDemo.Application.csproj", "{981AF851-4BA4-47E6-BF4F-F103DE954D63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEntityFrameworkDemo.Application", "CleanEntityFrameworkDemo.Application\CleanEntityFrameworkDemo.Application.csproj", "{981AF851-4BA4-47E6-BF4F-F103DE954D63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.Domain", "CleanEntityFrameworkDemo.Domain\CleanEntityFrameworkDemo.Domain.csproj", "{58983E72-17D1-4154-B87D-B0BE8036994B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEntityFrameworkDemo.Domain", "CleanEntityFrameworkDemo.Domain\CleanEntityFrameworkDemo.Domain.csproj", "{58983E72-17D1-4154-B87D-B0BE8036994B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.Domain.Test", "CleanEntityFrameworkDemo.Domain.Test\CleanEntityFrameworkDemo.Domain.Test.csproj", "{D5356444-7E62-4E83-AFBA-9F4678CDB569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEntityFrameworkDemo.Domain.Test", "CleanEntityFrameworkDemo.Domain.Test\CleanEntityFrameworkDemo.Domain.Test.csproj", "{D5356444-7E62-4E83-AFBA-9F4678CDB569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.Infrastructure", "CleanEntityFrameworkDemo.Infrastructure\CleanEntityFrameworkDemo.Infrastructure.csproj", "{210A1A9A-FB15-496A-9B1A-C65BCE9C7647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEntityFrameworkDemo.Infrastructure", "CleanEntityFrameworkDemo.Infrastructure\CleanEntityFrameworkDemo.Infrastructure.csproj", "{210A1A9A-FB15-496A-9B1A-C65BCE9C7647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.DatabaseMigration", "CleanEntityFrameworkDemo.DatabaseMigration\CleanEntityFrameworkDemo.DatabaseMigration.csproj", "{7F70218D-A55F-4029-8692-A9BA671E1FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEntityFrameworkDemo.DatabaseMigration", "CleanEntityFrameworkDemo.DatabaseMigration\CleanEntityFrameworkDemo.DatabaseMigration.csproj", "{7F70218D-A55F-4029-8692-A9BA671E1FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEntityFrameworkDemo.Infrastructure.Test", "CleanEntityFrameworkDemo.Infrastructure.Test\CleanEntityFrameworkDemo.Infrastructure.Test.csproj", "{E38F0AD8-D915-4072-AB24-ACD5B83F74E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D6791BB9-D0AE-401B-BD04-EC14DD3E6E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +47,12 @@ Global
 		{7F70218D-A55F-4029-8692-A9BA671E1FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F70218D-A55F-4029-8692-A9BA671E1FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F70218D-A55F-4029-8692-A9BA671E1FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38F0AD8-D915-4072-AB24-ACD5B83F74E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38F0AD8-D915-4072-AB24-ACD5B83F74E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38F0AD8-D915-4072-AB24-ACD5B83F74E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38F0AD8-D915-4072-AB24-ACD5B83F74E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
